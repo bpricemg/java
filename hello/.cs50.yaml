@@ -1,0 +1,12 @@
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !require Hello.java
+  checks:
+    hello world:
+      - run: java Hello
+        stdout: Hello, world!
+        exit: 0
+
+submit50:
+  files: *check50_files
