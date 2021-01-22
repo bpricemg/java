@@ -3,7 +3,7 @@ check50:
     - !exclude "*"
     - !require Diamond.java
   checks:
-    hello world:
+    diamond:
       - run: java Diamond.java
         stdout:    D\n  I I\n A   A\nM     M\n O   O\n  N N\n   D\n
         exit: 0
