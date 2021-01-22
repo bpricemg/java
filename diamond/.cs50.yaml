@@ -6,12 +6,7 @@ check50:
     hello world:
       - run: java Diamond.java
         stdout:    D
-  I I
- A   A
-M     M
- O   O
-  N N
-   D
+  
         exit: 0
 
 submit50:
