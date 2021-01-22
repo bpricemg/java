@@ -1,0 +1,18 @@
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !require Diamond.java
+  checks:
+    hello world:
+      - run: java Diamond.java
+        stdout:    D
+  I I
+ A   A
+M     M
+ O   O
+  N N
+   D
+        exit: 0
+
+submit50:
+  files: *check50_files
