@@ -4,7 +4,7 @@ check50:
     - !require Hello.java
   checks:
     hello world:
-      - run: java Hello.java
+      - run: java Hello
         stdout: hello, world!
         exit: 0
 
