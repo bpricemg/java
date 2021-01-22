@@ -5,7 +5,7 @@ check50:
   checks:
     hello world:
       - run: java Diamond.java
-        stdout: hello, world!
+        stdout:    D\n  I I\n A   A\nM     M\n O   O\n  N N\n   D\n
         exit: 0
 
 submit50:
