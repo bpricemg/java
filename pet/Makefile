@@ -7,8 +7,8 @@ JC = javac
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-		  Pet.java \
-		  PetTest.java
+		  PetTest.java \
+		  Pet.java
 
 default: classes
 
