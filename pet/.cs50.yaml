@@ -2,7 +2,9 @@ check50:
   files: &check50_files
     - !exclude "*"
     - !require Pet.class
+    - !require Pet.java
     - !require PetTest.class
+    - !require PetTest.java
   checks:
     PetTest:
       - run: java PetTest
