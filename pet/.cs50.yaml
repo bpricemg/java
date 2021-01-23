@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !include Pet.class
+    - !require Pet.class
     - !require PetTest.class
   checks:
     PetTest:
