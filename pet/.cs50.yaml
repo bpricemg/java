@@ -4,7 +4,7 @@ check50:
     - !require PetTest.java
     - !require Pet.java
     - !require PetTest.class
-    - !require Pet.java
+    - !require Pet.class
   checks:
     PetTest:
       - run: java PetTest
