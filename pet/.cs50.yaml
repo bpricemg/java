@@ -1,8 +1,8 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require Pet.class
-    - !require PetTest.class
+    - !require Pet.java
+    - !require PetTest.java
   checks:
     PetTest:
       - run: javac PetTest
