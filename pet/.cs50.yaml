@@ -1,0 +1,12 @@
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !require Diamond.java
+  checks:
+    PetTest:
+      - run: java PetTest.java
+        stdout:Fido\nPolly\nTiger
+        exit: 0
+
+submit50:
+  files: *check50_files
