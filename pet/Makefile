@@ -1,21 +1,16 @@
 JFLAGS = -g
 JC = javac
-
 .SUFFIXES: .java .class
-
 .java.class:
-	$(JC) $(JFLAGS) $*.java
+        $(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-		  PetTest.java \
-		  Pet.java
+        PetTest.java \
+        Pet.java
 
 default: classes
 
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) *.class
-	
-run:
-	java PetTest
+        $(RM) *.class
