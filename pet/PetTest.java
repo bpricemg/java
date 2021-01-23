@@ -3,6 +3,7 @@
  *
  */
 
+import Pet.java;
 class PetTest
 {
     public static void main(String[] args)
