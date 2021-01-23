@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require Pet.class
+    - !include Pet.class
     - !require Pet.java
     - !require PetTest.class
     - !require PetTest.java
@@ -13,5 +13,3 @@ check50:
 
 submit50:
   files: *check50_files
-    - !exclude Pet.class
-    - !exclude PetTest.class
