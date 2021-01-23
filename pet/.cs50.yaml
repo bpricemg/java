@@ -3,7 +3,7 @@ check50:
     - !exclude "*"
     - !require PetTest.java
   checks:
-    diamond:
+    PetTest:
       - run: java PetTest.java
         stdout: Fido\nPolly\nTiger\n
         exit: 0
