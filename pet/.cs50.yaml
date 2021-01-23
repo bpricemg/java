@@ -2,11 +2,9 @@ check50:
   files: &check50_files
     - !exclude "*"
     - !require Pet.java
-    - !require PetTest.java
   checks:
     diamond:
-      - run: javac PetTest.java
-        run: java PetTest.java
+      - run: java PetTest.java
         stdout: Fido\nPolly\nTiger\n
         exit: 0
 
