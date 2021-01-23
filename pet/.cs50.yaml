@@ -5,7 +5,7 @@ check50:
     - !require PetTest.java
   checks:
     PetTest:
-      - run: java PetTest.java
+      - run: java PetTest
         stdout: Fido\nPolly\nTiger\n
         exit: 0
 
