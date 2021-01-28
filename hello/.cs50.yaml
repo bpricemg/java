@@ -5,7 +5,7 @@ check50:
   checks:
     hello world:
       - run: java Hello.java
-        stdout: hello, world!
+        stdout: hello, world!\n
         exit: 0
 
 submit50:
