@@ -4,7 +4,7 @@ import check50.c
 @check50.check()
 def exists():
     """Diamond.java exists"""
-    check50.exists("Diamond.c")
+    check50.exists("Diamond.java")
 
 @check50.check(exists)
 def test1():
