@@ -9,7 +9,7 @@ def exists():
 @check50.check()
 def test1():
     """Sum of digits 932 is 14"""
-    check50.run("java DigitSum.java").stdin("932").stdout("The sum of the digits is 14\n").exit(0)
+    check50.run("java DigitSum").stdin("932").stdout("The sum of the digits is 14\n").exit(0)
 
 @check50.check()
 def test2():
