@@ -9,4 +9,4 @@ def exists():
 @check50.check(exists)
 def test1():
     """15% of $10"""
-    check50.run("java Gratuity.java").stdin("10\n").stdin("15\n").stdout("The gratuity is $1.5 and the total is $11.5").stdout(check50.EOF).exit(0)
+    check50.run("java Gratuity.java").stdin("10\n").stdin("15\n").stdout("1.5").stdout("11.5").exit(0)
