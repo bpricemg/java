@@ -9,7 +9,7 @@ def exists():
 @check50.check(exists)
 def test1():
     """15% of $10"""
-    check50.run("java Gratuity.java").stdin("10\n", prompt=False).stdin("15\n", prompt=False).stdout("1.5", regex=False).stdout("11.5").exit(0)
+    check50.run("java Gratuity.java").stdin("10\\n15", prompt=False).stdout("1.5z\\n11.5", regex=False).exit(0)
     
 @check50.check(exists)
 def test2():
