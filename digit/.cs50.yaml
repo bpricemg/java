@@ -3,6 +3,7 @@ check50:
     foo:
       - run: java DigitSum.java
         stdout: 14
+check50:
   checks:
     bar:
       - run: java DigitSum.java
