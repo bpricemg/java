@@ -1,0 +1,6 @@
+check50:
+  checks:
+    foo:
+      - run: java DigitSum.java
+      stdin: 932
+      stdout: 14
