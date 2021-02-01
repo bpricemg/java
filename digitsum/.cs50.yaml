@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require DigitSum.java
+    - !require DigitSum.java, DigitSum.class
   checks:
     digit sum 932 is 14:
       - run: java DigitSum.java
