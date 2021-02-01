@@ -19,9 +19,9 @@ def test2():
 @check50.check(exists)
 def test3():
     """6.25% of $10"""
-    check50.run("java Gratuity.java").stdin("10\n").stdin("6.25\n").stdout("0.63").stdout("10.63").exit(0)
+    check50.run("java Gratuity.java").stdin("10\n", prompt=False).stdin("6.25\n", prompt=False).stdout("0.63").stdout("10.63").exit(0)
 
 @check50.check(exists)
 def test4():
     """6.25% of $9.25"""
-    check50.run("java Gratuity.java").stdin("9.25\n").stdin("6.25\n").stdout("0.58").stdout("9.83").exit(0)    
+    check50.run("java Gratuity.java").stdin("9.25\n", prompt=False).stdin("6.25\n", prompt=False).stdout("0.58").stdout("9.83").exit(0)    
