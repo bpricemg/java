@@ -9,7 +9,7 @@ check50:
         stdout: 14
         exit: 0
     digit sum 93 is 12:
-      - run: java DigitSum.java
+      - run: java DigitSum
         stdin: 93
         stdout: 1
         exit: 0
