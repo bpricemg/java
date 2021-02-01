@@ -8,5 +8,5 @@ def exists():
 
 @check50.check(exists)
 def test1():
-    """Proper computation"""
-    check50.run("java DigitSum.java").stdin("44").stdout("8\n").stdout(check50.EOF).exit(0)
+    """Digit sum of 932 is 14"""
+    check50.run("java DigitSum.java").stdin("932").stdout("14\n").stdout(check50.EOF).exit(0)
