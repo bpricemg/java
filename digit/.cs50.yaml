@@ -1,10 +1,10 @@
 check50:
   checks:
     foo:
-      - run: ./digitsum
+      - run: java DigitSum.java
         stdin: 932
         stdout: 14
     bar:
-      - run: ./digitsum
+      - run: java DigitSum.java
         stdin: 9
         stdout: 9
