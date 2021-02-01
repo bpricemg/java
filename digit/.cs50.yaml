@@ -5,5 +5,5 @@ check50:
         stdout: 14
   checks:
     bar:
-      -run: java DigitSum.java
-       stdout: 11
+      - run: java DigitSum.java
+        stdout: 11
