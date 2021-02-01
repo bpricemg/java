@@ -1,7 +1,4 @@
 check50:
-  files: &check50_files
-    - !exclude "*"
-    - !require DigitSum.java, DigitSum.class
   checks:
     digit sum 932 is 14:
       - run: java DigitSum.java
@@ -22,8 +19,4 @@ check50:
       - run: java DigitSum.java
         stdin: -932
         stdout: -14
-        exit: 0 
-
-
-submit50:
-  files: *check50_files
+        exit: 0
