@@ -1,8 +1,0 @@
-check50:
-  checks:
-    foo:
-      - run: java DigitSum.java
-        stdout: 14
-    bar:
-      - run: java DigitSum.java
-        stdout: 11
