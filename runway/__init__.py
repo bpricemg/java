@@ -4,7 +4,7 @@ import check50.c
 @check50.check()
 def exists():
     """Runway.java exists"""
-    check50.exists("Gratuity.java")
+    check50.exists("Runway.java")
 
 @check50.check(exists)
 def test1():
