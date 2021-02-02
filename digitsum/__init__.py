@@ -8,5 +8,5 @@ def exists():
 
 @check50.check(exists)
 def test1():
-    """6.25% of $9.25"""
+    """-102 yields -3"""
     check50.run("java DigitSum.java").stdin("-102\n", prompt=False).stdout("-3").exit(0)    
