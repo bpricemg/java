@@ -1,0 +1,7 @@
+check50:
+  checks:
+    doubles:
+      - run: java Double
+        stdin: 12
+        stdout: 24
+        exit: 0
