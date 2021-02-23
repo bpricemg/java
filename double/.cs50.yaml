@@ -5,7 +5,7 @@ check50:
         stdin: 12
         stdout: 24
         exit: 0
-    doubles_:
+    doub:
       - run: java Double
       stdin: 24
       stdout: 48
