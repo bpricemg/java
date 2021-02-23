@@ -7,6 +7,6 @@ check50:
         exit: 0
     doub:
       - run: java Double
-      stdin: 24
-      stdout: 48
-      exit: 0
+        stdin: 24
+        stdout: 48
+        exit: 0
