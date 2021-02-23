@@ -5,11 +5,6 @@ import check50.c
 def exists():
     """Compute.java exists"""
     check50.exists("Compute.java")
-    
-@check50.check(exists)
-def compiles():
-    """caesar.c compiles."""
-    check50.java.compile("Compute.java")
 
 @check50.check(exists)
 def test1():
