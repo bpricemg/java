@@ -1,4 +1,6 @@
 check50:
+  files:
+    - !require "Double.class"
   checks:
     doubles:
       - run: java Double
